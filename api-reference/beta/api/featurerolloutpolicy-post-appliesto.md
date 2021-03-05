@@ -2,14 +2,17 @@
 title: "Assign appliesTo"
 description: "Assign a directoryObject to feature rollout."
 localization_priority: Normal
-author: "keylimesoda"
-ms.prod: "directory-management"
+author: "madpatel"
+ms.author: "madpatel"
+ms.prod: "microsoft-identity-platform"
 doc_type: "apiPageType"
 ---
 
 # Assign appliesTo
 
 Namespace: microsoft.graph
+
+[!INCLUDE [feature-rolloutpolicy-deprecate](../../includes/feature-rolloutpolicy-deprecate.md)]
 
 [!INCLUDE [beta-disclaimer](../../includes/beta-disclaimer.md)]
 
@@ -30,7 +33,7 @@ One of the following permissions is required to call this API. To learn more, in
 <!-- { "blockType": "ignored" } -->
 
 ```http
-POST /directory/featureRolloutPolicies/{id}/appliesTo/$ref
+POST /policies/featureRolloutPolicies/{id}/appliesTo/$ref
 ```
 
 ## Request headers
@@ -60,7 +63,7 @@ The following is an example of the request.
 }-->
 
 ```http
-POST https://graph.microsoft.com/beta/directory/featureRolloutPolicies/{id}/appliesTo/$ref
+POST https://graph.microsoft.com/beta/policies/featureRolloutPolicies/{id}/appliesTo/$ref
 Content-type: application/json
 
 {

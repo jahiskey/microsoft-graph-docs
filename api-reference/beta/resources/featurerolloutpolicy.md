@@ -2,14 +2,16 @@
 title: "featureRolloutPolicy resource type"
 description: "Represents a feature rollout policy associated with a directory object."
 localization_priority: Normal
-author: "keylimesoda"
-ms.prod: "directory-management"
+author: "madpatel"
+ms.author: "madpatel"
+ms.prod: "microsoft-identity-platform"
 doc_type: "resourcePageType"
 ---
 
 # featureRolloutPolicy resource type
 
 Namespace: microsoft.graph
+[!INCLUDE [feature-rolloutpolicy-deprecate](../../includes/feature-rolloutpolicy-deprecate.md)]
 
 [!INCLUDE [beta-disclaimer](../../includes/beta-disclaimer.md)]
 
@@ -81,6 +83,7 @@ The following is a JSON representation of the resource.
 
   ],
   "@odata.type": "microsoft.graph.featureRolloutPolicy",
+
   "keyProperty": "id"
 }-->
 

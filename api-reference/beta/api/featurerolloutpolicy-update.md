@@ -2,14 +2,17 @@
 title: "Update featureRolloutPolicy"
 description: "Update the properties of featurerolloutpolicy object."
 localization_priority: Normal
-author: "keylimesoda"
-ms.prod: "directory-management"
+author: "madpatel"
+ms.author: "madpatel"
+ms.prod: "microsoft-identity-platform"
 doc_type: "apiPageType"
 ---
 
 # Update featurerolloutpolicy
 
 Namespace: microsoft.graph
+
+[!INCLUDE [feature-rolloutpolicy-deprecate](../../includes/feature-rolloutpolicy-deprecate.md)]
 
 [!INCLUDE [beta-disclaimer](../../includes/beta-disclaimer.md)]
 
@@ -30,7 +33,7 @@ One of the following permissions is required to call this API. To learn more, in
 <!-- { "blockType": "ignored" } -->
 
 ```http
-PATCH /directory/featureRolloutPolicies/{id}
+PATCH /policies/featureRolloutPolicies/{id}
 ```
 
 ## Request headers
@@ -65,7 +68,7 @@ The following is an example of the request.
 }-->
 
 ```http
-PATCH https://graph.microsoft.com/v1.0/directory/featureRolloutPolicies/d7ab4886-d7f0-441b-a5e6-e62d7328d18a
+PATCH https://graph.microsoft.com/beta/policies/featureRolloutPolicies/d7ab4886-d7f0-441b-a5e6-e62d7328d18a
 Content-type: application/json
 
 {

@@ -2,14 +2,16 @@
 title: "Delete featureRolloutPolicy"
 description: "Delete a featureRolloutPolicy object."
 localization_priority: Normal
-author: "keylimesoda"
-ms.prod: "directory-management"
+author: "madpatel"
+ms.author: "madpatel"
+ms.prod: "microsoft-identity-platform"
 doc_type: "apiPageType"
 ---
 
 # Delete featureRolloutPolicy
 
 Namespace: microsoft.graph
+[!INCLUDE [feature-rolloutpolicy-deprecate](../../includes/feature-rolloutpolicy-deprecate.md)]
 
 [!INCLUDE [beta-disclaimer](../../includes/beta-disclaimer.md)]
 
@@ -21,7 +23,7 @@ One of the following permissions is required to call this API. To learn more, in
 
 | Permission type                        | Permissions (from least to most privileged) |
 |:---------------------------------------|:--------------------------------------------|
-| Delegated (work or school account)     | Directory.ReadWrite.All |
+| Delegated (work or school account)     | Policy.ReadWrite.FeatureRollout |
 | Delegated (personal Microsoft account) | Not supported. |
 | Application                            | Not supported. |
 
@@ -30,7 +32,7 @@ One of the following permissions is required to call this API. To learn more, in
 <!-- { "blockType": "ignored" } -->
 
 ```http
-DELETE /directory/featureRolloutPolicies/{id}
+DELETE /policies/featureRolloutPolicies/{id}
 ```
 
 ## Request headers
@@ -58,7 +60,7 @@ The following is an example of the request.
 }-->
 
 ```http
-DELETE https://graph.microsoft.com/v1.0/directory/featureRolloutPolicies/df85e4d9-e8c4-4033-a41c-73419a95c29c
+DELETE https://graph.microsoft.com/beta/policies/featureRolloutPolicies/df85e4d9-e8c4-4033-a41c-73419a95c29c
 ```
 
 ### Response

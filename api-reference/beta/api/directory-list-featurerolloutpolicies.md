@@ -2,8 +2,9 @@
 title: "List featureRolloutPolicies"
 description: "Retrieve a list of featureRolloutPolicy objects."
 localization_priority: Normal
-author: "keylimesoda"
-ms.prod: "directory-management"
+author: "madpatel"
+ms.author: "madpatel"
+ms.prod: "microsoft-identity-platform"
 doc_type: "apiPageType"
 ---
 
@@ -30,7 +31,7 @@ One of the following permissions is required to call this API. To learn more, in
 <!-- { "blockType": "ignored" } -->
 
 ```http
-GET /directory/featureRolloutPolicies
+GET /policies/featureRolloutPolicies
 ```
 
 ## Optional query parameters
@@ -64,7 +65,7 @@ The following is an example of the request.
 }-->
 
 ```msgraph-interactive
-GET https://graph.microsoft.com/beta/directory/featureRolloutPolicies
+GET https://graph.microsoft.com/beta/policies/featureRolloutPolicies
 ```
 # [C#](#tab/csharp)
 [!INCLUDE [sample-code](../includes/snippets/csharp/get-featurerolloutpolicies-csharp-snippets.md)]

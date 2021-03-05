@@ -2,8 +2,9 @@
 title: "Create featureRolloutPolicy"
 description: "Create a new featureRolloutPolicy object."
 localization_priority: Normal
-author: "keylimesoda"
-ms.prod: "directory-management"
+author: "madpatel"
+ms.author: "madpatel"
+ms.prod: "microsoft-identity-platform"
 doc_type: "apiPageType"
 ---
 
@@ -30,7 +31,7 @@ One of the following permissions is required to call this API. To learn more, in
 <!-- { "blockType": "ignored" } -->
 
 ```http
-POST /directory/featureRolloutPolicies
+POST /policies/featureRolloutPolicies
 ```
 
 ## Request headers
@@ -68,7 +69,7 @@ The following is an example of the request.
 }-->
 
 ```http
-POST https://graph.microsoft.com/beta/directory/featureRolloutPolicies
+POST https://graph.microsoft.com/beta/policies/featureRolloutPolicies
 Content-type: application/json
 
 {
