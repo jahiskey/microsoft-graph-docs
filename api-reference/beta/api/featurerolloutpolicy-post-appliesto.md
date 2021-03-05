@@ -2,7 +2,7 @@
 title: "Assign appliesTo"
 description: "Assign a directoryObject to feature rollout."
 localization_priority: Normal
-author: "madpatel"
+author: "madhavpatel6"
 ms.author: "madpatel"
 ms.prod: "microsoft-identity-platform"
 doc_type: "apiPageType"

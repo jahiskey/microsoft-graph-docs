@@ -2,7 +2,7 @@
 title: "List featureRolloutPolicies"
 description: "Retrieve a list of featureRolloutPolicy objects."
 localization_priority: Normal
-author: "madpatel"
+author: "madhavpatel6"
 ms.author: "madpatel"
 ms.prod: "microsoft-identity-platform"
 doc_type: "apiPageType"
