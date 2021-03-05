@@ -11,6 +11,7 @@ doc_type: "apiPageType"
 # Get featureRolloutPolicy
 
 Namespace: microsoft.graph
+
 [!INCLUDE [feature-rolloutpolicy-deprecate](../../includes/feature-rolloutpolicy-deprecate.md)]
 
 [!INCLUDE [beta-disclaimer](../../includes/beta-disclaimer.md)]
